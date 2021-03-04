@@ -42,7 +42,8 @@ defmodule CloudWatch.Mixfile do
       {:httpoison, "~> 0.11.1"},
       {:credo, "~> 0.4.13", only: :dev},
       {:mock, "~> 0.3.2", only: :test},
-      {:ex_doc, ">= 0.0.0", only: :dev}
+      {:ex_doc, ">= 0.0.0", only: :dev},
+      {:poison, "~> 3.1"}
     ]
   end
 
